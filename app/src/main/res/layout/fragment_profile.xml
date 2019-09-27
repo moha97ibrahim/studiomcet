@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          android:orientation="horizontal"
+          android:background="@color/colorPrimary">
+
+          <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+
+              android:id="@+id/profile"
+              android:layout_width="164dp"
+              android:layout_height="151dp"
+
+              android:layout_alignParentStart="true"
+              android:layout_alignParentTop="true"
+              android:clickable="true"
+              android:elevation="5dp"
+              android:padding="20dp"
+              android:scaleType="centerCrop"
+              android:src="@drawable/ic_account"
+              app:civ_border_color="#FFF"
+              app:civ_border_width="3dp" />
+
+          <TextView
+              android:id="@+id/getusremail"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+
+              android:text="USERNAME@GMAIL.COM"
+              android:textColor="@color/black" />
+
+      </LinearLayout>
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+
+
+          android:background="@color/grey"></View>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/aboutusActivity"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:fontFamily="sans-serif-condensed"
+              android:text="About Studio MCET"
+              android:textColor="@color/black"
+              android:textSize="20sp"
+
+              />
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="10dp"
+              android:background="@color/grey"></View>
+
+          <TextView
+              android:id="@+id/teamactivity"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:fontFamily="sans-serif-condensed"
+              android:text="Team"
+              android:textColor="@color/black"
+              android:textSize="20sp"
+
+              />
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="10dp"
+              android:background="@color/grey"></View>
+
+          <TextView
+              android:id="@+id/contactusactivity"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:fontFamily="sans-serif-condensed"
+              android:text="ContactUs"
+              android:textColor="@color/black"
+              android:textSize="20sp"
+
+              />
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="10dp"
+              android:background="@color/grey"></View>
+
+          <TextView
+              android:id="@+id/feedbackActivity"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:clickable="true"
+              android:fontFamily="sans-serif-condensed"
+              android:text="FeedBack"
+              android:textColor="@color/black"
+              android:textSize="20sp"
+
+              />
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="10dp"
+              android:background="@color/grey"></View>
+
+          <TextView
+              android:id="@+id/logoutactivity"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:fontFamily="sans-serif-condensed"
+              android:text="Log Out"
+              android:textColor="@color/black"
+              android:textSize="20sp"
+
+              />
+
+
+
+      </LinearLayout>
+
+  </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+

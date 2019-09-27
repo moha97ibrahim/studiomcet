@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="@string/about_us1"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="@string/about_us2"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Services"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="20dp"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/photo"
+                         />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:background="@color/colorPrimaryDark">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="PHOTOGRAPHY"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="WE CAPTURE MOMENTS"
+                            android:textColor="#000000"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textSize="25sp"
+                            android:gravity="center"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/video"
+                         />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:background="@color/colorPrimaryDark">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="VIDEOGRAPHY"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="CONTENT"
+                            android:textColor="#555"
+                            android:gravity="center"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/editing"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:background="@color/colorPrimaryDark">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="EDITING"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="CONTENT"
+                            android:textColor="#555"
+                            android:gravity="center"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

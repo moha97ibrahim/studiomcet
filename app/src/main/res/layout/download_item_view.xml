@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    app:layout_constraintCircleRadius="3dp"
+    android:background="#fff">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="4dp"
+        android:background="#ffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="EVENT NAME"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_gravity="left"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/downloadlink_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EVENT ORGANIZER"
+                        android:layout_margin="10dp"
+
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_gravity="left"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="EVENT DATE"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_gravity="left"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/eventdatedow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EVENT ORGANIZER"
+                        android:layout_margin="10dp"
+
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_gravity="left"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="DOWNLOAD LINK"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:clickable="true"
+                    android:layout_gravity="left"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/eventlinkdow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EVENT ORGANIZER"
+                        android:layout_margin="10dp"
+                        android:autoLink="web"
+                        android:clickable="true"
+
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_gravity="left"
+                        android:textColor="@color/black"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="EVENT ORGANIZER"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_gravity="left"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/eventorganizerdow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EVENT ORGANIZER"
+                        android:layout_margin="10dp"
+
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_gravity="left"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

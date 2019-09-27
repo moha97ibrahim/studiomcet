@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Studiomcet</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us1">             To us photography is about being real and then letting us paint a picture of that moment to remember it forever. This is the story that matters most: real people, real stories, real moments.   We reach our clients not by impelling us but by inquiring their needs.
+
+              </string>
+    <string name="about_us2">We are incredibly blessed to work as a  team of photographers where we employ our expertise to emboss the world.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\mohammed.ibrahim\\Desktop\\Studiomcet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mohammed.ibrahim\\.gradle\\caches\\transforms-2\\files-2.1\\a9391ff64313c71570e09b6caf2d83d3\\firebase-messaging-17.1.0\\res\\values-or\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "106",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        }
+    ]
+}

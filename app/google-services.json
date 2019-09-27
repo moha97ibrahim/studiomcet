@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "815131309016",
+    "firebase_url": "https://pixel-71245.firebaseio.com",
+    "project_id": "pixel-71245",
+    "storage_bucket": "pixel-71245.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815131309016:android:1200d60782ac3cc2",
+        "android_client_info": {
+          "package_name": "com.example.mohammedibrahim.studiomcet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815131309016-knvf6q9a89hqt2sck33o8c5g5idei457.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohammedibrahim.studiomcet",
+            "certificate_hash": "3956d9cfdd9d7c1b5ca60e3496bc10b835c425fd"
+          }
+        },
+        {
+          "client_id": "815131309016-dahi9n00mcfhvqkbe6uit1ava9nkj8vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBgcgG59iNI59yDvV3buBr0AAPJf0O7ZI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815131309016-dahi9n00mcfhvqkbe6uit1ava9nkj8vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="170dp"
+            android:hint="Email"/>
+        <EditText
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Username"/>
+        <EditText
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Password"/>
+        <EditText
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/mobilenumber"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Mobile Number"/>
+
+
+        <Button
+
+            android:background="@drawable/buttonui"
+            android:id="@+id/register"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="SIGNUP"/>
+
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sign in"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
